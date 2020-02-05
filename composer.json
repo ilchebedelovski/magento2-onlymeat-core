@@ -1,0 +1,16 @@
+{
+  "name": "ilchebedelovski/magento2-onlymeat-core",
+  "description": "A Magento 2 module dependency module for Onlymeat",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "extra": {
+      "map": [
+          [
+              "*",
+              "Onlymeat/Core"
+          ]
+      ]
+  }
+}
+
+
