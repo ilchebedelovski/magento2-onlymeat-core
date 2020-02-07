@@ -3,13 +3,19 @@
   "description": "A Magento 2 module dependency module for Onlymeat",
   "type": "magento2-module",
   "version": "1.0.0",
-  "extra": {
-      "map": [
-          [
-              "*",
-              "Onlymeat/Core"
-          ]
-      ]
+  "authors": [
+    {
+      "name": "Ilche Bedelovski",
+      "email": "ilche.bedelovski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Onlymeat\\Core\\": ""
+    }
   }
 }
 
